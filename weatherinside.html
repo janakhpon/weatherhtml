@@ -1,0 +1,329 @@
+<html>
+
+<head>
+  <script language="text/javascript">
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+    html,
+    body {
+      background-color: #333E43;
+      text-align: center;
+      height: 100%;
+      vertical-align: middle;
+    }
+
+    #icc1,
+    #icc2,
+    #icc3,
+    #icc4,
+    #icc5,
+    #tcc1,
+    #tcc2,
+    #tcc3,
+    #tcc4,
+    #tcc5,
+    #fcc1,
+    #fcc2,
+    #fcc3,
+    #fcc4,
+    #fcc5 {
+      width: 130px;
+      height: 80px;
+      background: #2f3542;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 13px;
+      line-height: 16px;
+      padding: 5px;
+      margin: 20px;
+      border-radius: 15px;
+
+    }
+
+    #icc,
+    #tcc,
+    #fcc {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+
+    #head {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 70%;
+
+    }
+
+    #hh {
+      color: #9CC9E3;
+    }
+
+    #vale {
+      color: black;
+    }
+
+    p {
+      font-family: Montserrat Alternates Medium;
+      color: #fffff6;
+    }
+
+    span {
+
+      color: #2ed573;
+
+    }
+
+    #vicc1,
+    #vicc2,
+    #vicc3,
+    #vicc4,
+    #vicc5,
+    #vfcc1,
+    #vfcc2,
+    #vfcc3,
+    #vfcc4,
+    #vfcc5,
+    #vtcc1,
+    #vtcc2,
+    #vtcc3,
+    #vtcc4,
+    #vicce,
+    #vtcc5 {
+      color: #2ed573;
+      font-size: 15px;
+      padding: 5px;
+      font-weight: bold;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <div id="head">
+
+
+    <!--===============================================================================================-->
+
+
+
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+
+
+  </div>
+
+  <!--===============================================================================================-->
+  <!--===============================================================================================-->
+  <!--===============================================================================================-->
+
+
+
+  <div id="icc">
+
+
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+
+    <div id="icc1">
+      <p id="licc1">region</p>
+      <span id="vicc1"></span>&nbsp;&nbsp;<span class="fa fa-area-chart" style="font-size:20px;"></span>
+    </div>
+
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+
+    <div id="icc2">
+      <p id="licc2">city</p>
+      <span id="vicc2"></span>&nbsp;&nbsp;<span class="fa fa-map-marker" style="font-size:20px;"></span>
+    </div>
+
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+
+    <div id="icc3">
+      <p id="licc3">potential</p>
+      <span id="vicc3">&nbsp;Max&nbsp;</span>&nbsp;<span id="vicce">/&nbsp;Min&nbsp;</span>
+    </div>
+
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+
+    <div id="icc4">
+      <p id="licc4">temperature</p>
+      <span id="vicc4"></span> &nbsp;&nbsp;
+      <span class="fa fa-thermometer-three-quarters" style="font-size:20px;"></span>
+    </div>
+
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+
+    <div id="icc5">
+      <p id="licc5">condition</p>
+      <span id="vicc5"></span> &nbsp;&nbsp;<span class="	fa fa-bolt" style="font-size:20px;"></span>
+    </div>
+
+    <!--===============================================================================================-->
+
+
+    <!--===============================================================================================-->
+
+  </div>
+
+
+
+  <!--===============================================================================================-->
+  <!--===============================================================================================-->
+  <!--===============================================================================================-->
+
+
+
+
+  <div id="tcc">
+
+    <div id="tcc1">
+      <p id="ltcc1">sunrise</p>
+      <span id="vtcc1"></span> &nbsp;&nbsp;<span class="fa fa-arrow-circle-up" style="font-size:20px;"></span>
+    </div>
+
+    <div id="tcc2">
+      <p id="ltcc2">sunset</p>
+      <span id="vtcc2"></span> &nbsp;&nbsp;<span class="fa fa-arrow-circle-down" style="font-size:20px;"></span>
+    </div>
+
+
+    <div id="tcc3">
+      <p id="ltcc3">wind chill</p>
+      <span id="vtcc3"></span> &nbsp;&nbsp;<span class="fa fa-snowflake-o" style="font-size:20px;"></span>
+    </div>
+
+    <div id="tcc4">
+      <p id="ltcc4">wind direction</p>
+      <span id="vtcc4"></span> &nbsp;&nbsp;<span class="fa fa-line-chart" style="font-size:20px;"></span>
+    </div>
+
+    <div id="tcc5">
+      <p id="ltcc5">wind speed</p>
+      <span id="vtcc5"></span> &nbsp;&nbsp;<span class="fa fa-meanpath" style="font-size:20px;"></span>
+    </div>
+
+  </div>
+
+  <!--===============================================================================================-->
+  <!--===============================================================================================-->
+  <!--===============================================================================================-->
+
+  <div id="fcc">
+
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+
+    <div id="fcc1">
+      <p id="lfcc1">humidity</p>
+      <span id="vfcc1"></span> &nbsp;&nbsp;<span class="fa fa-tint" style="font-size:20px;"></span>
+    </div>
+
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+
+    <div id="fcc2">
+      <p id="lfcc2">visibility</p>
+      <span id="vfcc2"></span> &nbsp;&nbsp;<span class="fa fa-tripadvisor" style="font-size:20px;"></span>
+    </div>
+
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+
+    <div id="fcc3">
+      <p id="lfcc3">pressure</p>
+      <span id="vfcc3"></span> &nbsp;&nbsp;<span class="fa fa-yelp" style="font-size:20px;"></span>
+    </div>
+
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+
+    <div id="fcc4">
+      <p id="lfcc1">pressure</p>
+      <span id="vfcc4"></span> &nbsp;&nbsp;<span class="fa fa-sort-amount-desc" style="font-size:20px;"></span>
+    </div>
+
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+
+    <div id="fcc5">
+      <p id="lfcc1">code say</p>
+      <span id="vfcc5"></span> &nbsp;&nbsp;<span class="fa fa-twitch" style="font-size:20px;"></span>
+    </div>
+
+  </div>
+
+  <script>
+    var iconUrl = 'https://s.yimg.com/zz/combo?a/i/us/we/52/';
+    var callbackFunction = function(data) {
+      var city = data.query.results.channel.location.city;
+      var region = data.query.results.channel.location.region;
+      var image = data.query.results.channel.item.forecast;
+      var temperature = data.query.results.channel.item.condition.temp;
+      var cloud = data.query.results.channel.item.condition.low;
+      var high = data.query.results.channel.item.forecast[0].high;
+      var cur = data.query.results.channel.item.forecast[0].text;
+      var low = data.query.results.channel.item.forecast[0].low;
+      var condition = data.query.results.channel.item.condition.text;
+      var sunrise = data.query.results.channel.astronomy.sunrise;
+      var sunset = data.query.results.channel.astronomy.sunset;
+      var windchill = data.query.results.channel.wind.chill;
+      var winddirection = data.query.results.channel.wind.direction;
+      var windspeed = data.query.results.channel.wind.speed;
+      var humidity = data.query.results.channel.atmosphere.humidity;
+      var visibility = data.query.results.channel.atmosphere.visibility;
+      var pressure = data.query.results.channel.atmosphere.pressure;
+      var ri = data.query.results.channel.atmosphere.rising;
+
+      var ut = data.query.results.channel.units.temperature;
+      var ud = data.query.results.channel.units.distance;
+      var up = data.query.results.channel.units.pressure;
+      var us = data.query.results.channel.units.speed;
+
+      if (ri == 0) {
+        var state = "Steady";
+      } else if (ri == 1) {
+        var state = "Rising";
+      } else {
+        var state = "falling";
+      }
+      $('#vicc1').append(region);
+      $('#vicc2').append(city);
+      $('#vicc3').append(high + '°' + ut);
+      $('#vicce').append(low + '°' + ut);
+      $('#vicc4').append(temperature + '°F');
+      $('#vicc5').append(condition);
+      $('#vtcc1').append(sunrise);
+      $('#vtcc2').append(sunset);
+      $('#vtcc3').append(windchill + '&nbsp; °/degree');
+      $('#vtcc4').append(winddirection + '&nbsp; °/degree');
+      $('#vtcc5').append(windspeed + '&nbsp;' + us);
+      $('#vfcc1').append(humidity + '&nbsp;%');
+      $('#vfcc2').append(visibility + '&nbsp;' + ud);
+      $('#vfcc3').append(pressure + '&nbsp;' + up);
+      $('#vfcc4').append(state);
+      $('#vfcc5').append(cur);
+
+    };
+  </script>
+  <script src="https://query.yahooapis.com/v1/public/yql?q=select * from weather.forecast where woeid in (select woeid from geo.places(1) where text='mawlamyine')&format=json&callback=callbackFunction"></script>
+
+
+</body>
+
+</html>
